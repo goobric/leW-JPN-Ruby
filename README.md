@@ -4,4 +4,4 @@ This is a 5 week basic introduction to Ruby Programming from the Le Wagon team i
 
 ## Ruby Documentation
 
-[ruby-docs](https://www.ruby-docs.org)
+[ruby-docs](https://www.ruby-doc.org)
