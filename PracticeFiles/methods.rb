@@ -25,3 +25,4 @@ puts phrase.[0,4] #will print the first 4 characters 'Adva'
 
 # index will search the variable and state the index position of where this value begins
 puts phrase.index("ing")  # will print 14
+
