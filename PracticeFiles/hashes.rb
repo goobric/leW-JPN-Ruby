@@ -19,5 +19,25 @@ market_item_prices = {
     'oreos' => 250,
     'fries' => 400,
     'noodles' => 800,
-    'bubble tea' => 600,
+    'bubble tea' => 600
 }
+
+### CRUD practice with Arrays
+market_items = ['burger', 'chicken', 'sushi', 'oreos', 'fries', 'noodles', 'bubble tea']
+
+# Create use the .push() or the shovel <<
+market_items.push('passion fruit')
+market_items << 'cherry'
+
+# Read use the [index] square brackets with an index value
+market_items[2]
+
+# Update use the [index] square brackets with an index value and assignment operator = 
+market_items[1] ='grilled chicken'
+
+# Delete two ways using the method .delete('object') or the .delete_at(index)
+market_items.delete('passion fruit')
+market_items.delete_at(-1)
+
+p market_items
+
