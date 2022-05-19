@@ -12,3 +12,8 @@ market_item_prices = {
     'bubble tea' => 600
 }
 
+# add an item to the inventory
+
+market_item_prices['raman'] = 900
+
+p market_item_prices
