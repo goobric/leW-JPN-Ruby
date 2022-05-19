@@ -22,17 +22,20 @@ market_item_prices = {
     'bubble tea' => 600
 }
 
+# explicit information
+#market_item_prices['noodles']['price']
+
 ### CRUD practice with Hash
 
 # Create use the hash_name[new_key] = new_value
 market_item_prices['raman'] = 300
 
-# Read  use the hash_name(key)
+# Read  use the hash_name(key) : use the ? to query data
 market_item_prices['sushi']
 market_item_prices.keys
 market_item_prices.values
-p market_item_prices.key?('apple')
-p market_item_prices.value?(800)
+market_item_prices.key?('apple')
+market_item_prices.value?(800)
 
 # Update use the same Create process  : hash_name[key] = new_value
 market_item_prices['noodles'] = 760
@@ -40,7 +43,21 @@ market_item_prices['noodles'] = 760
 # Delete similar the Array process : use the .delete(key) method with the Key Value in the parenthesis
 market_item_prices.delete('burger')
 
-market_item_prices
+### Display information to the user
+
+# array.each do |element|
+
+#end
+
+# hash.each do |key, value|
+puts "These are the items in our store:"
+market_item_prices.each do |key, value|
+    puts "#{key}: $#{value}"
+end
+
+
+
+
 
 
 ### CRUD practice with Arrays
