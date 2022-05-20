@@ -49,6 +49,9 @@ market_items = {
 ##6 Add the items and quantity in the shopping cart
 ##7 Display the total bill
 
+# what data type should the cart be? use hash {}
+cart = {}
+
 puts "**************************"
 puts "-- Welcome to the Store --"
 puts "**************************"
@@ -61,7 +64,9 @@ puts "What would you like to buy?"
 user_item = gets.chomp
 
 puts "How many items would you like?"
-quantity = gets.chomp.to_i
+quantity = gets.chomp.to_i  #integar
+
+
 
 
 
