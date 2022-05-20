@@ -50,6 +50,7 @@ market_items = {
 ##7 Display the total bill
 
 # what data type should the cart be? use hash {}
+# cart = { 'item' => quantity }
 cart = {}
 
 puts "**************************"
@@ -71,16 +72,13 @@ cart[item] = quantity
 
 # tell the user their total bill
 # get prices from the hash{} data
+total = 0  # initialize total variable 
+
 cart.each do |item, quantity|
-    p price = market_items[item]
-    total = price * quantity
+    price = market_items[item]
+    total += price * quantity  # same as total = total + (price * quantity)
 end
+puts "Bill:"
+puts "$#{total}"
 
-
-
-
-
-
-
-
-
+##7 Display the total bill - tell the user what their total bill is
