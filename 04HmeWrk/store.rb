@@ -26,6 +26,20 @@ market_item_prices.each do |item, price|
 end
 # hash is a {placeholder}
 
+market_items = {
+    'burger' => 500,
+    'chicken' => 750,
+    'sushi' => 1000,
+    'oreos' => 250,
+    'fries' => 400,
+    'noodles' => 800,
+    'bubble tea' => 600
+    'raman' => 900
+    'onions' => 150
+    'cabbage' => 150
+    'rice' => 200
+}
+
 ### Pseudocode the problem
 ##1 Welcome the user to the shop
 ##2 Display the items with the prices in the shop
@@ -34,5 +48,11 @@ end
 ##5 Ask the user for the quantity needed
 ##6 Add the items and quantity in the shopping cart
 ##7 Display the total bill
+
+puts "**************************"
+puts "-- Welcome to the Store --"
+puts "**************************"
+
+
 
 
