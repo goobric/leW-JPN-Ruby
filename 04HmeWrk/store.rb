@@ -81,4 +81,16 @@ end
 puts "Bill:"
 puts "$#{total}"
 
-##7 Display the total bill - tell the user what their total bill is
+##8. loop over the 'what would you like to buy' and 'quantity required' questions
+##9. wait, using while/until the user states 'quit' to end shopping
+#10. before quantity question, check the item is available in the shop (.key?)
+#11. display an itemized bill for each item & quantity
+
+### Next Level of Improvement ###
+#12. reorganise the shop with the current availability
+#13. when the user requests a quantity, check the availability of stock
+#14. IF stock available, add item amount to cart, and then subtract from shop stock (updating the hash)
+
+shop_stock = {
+    'burger' => {price: 500, availability: 5},
+}
