@@ -57,7 +57,8 @@ market_items.each do |item, price|
     puts "#{item}: $#{price}"
 end
 
-
+puts "What would you like to buy?"
+item = gets.chomp
 
 
 
