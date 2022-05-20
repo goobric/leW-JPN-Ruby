@@ -53,6 +53,13 @@ puts "**************************"
 puts "-- Welcome to the Store --"
 puts "**************************"
 
+market_items.each do |item, price|
+    puts "#{item}: $#{price}"
+end
+
+
+
+
 
 
 
