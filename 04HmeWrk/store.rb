@@ -66,6 +66,9 @@ user_item = gets.chomp
 puts "How many items would you like?"
 quantity = gets.chomp.to_i  #integar
 
+# hash_name[key] = value
+cart[item] = quantity
+
 
 
 
