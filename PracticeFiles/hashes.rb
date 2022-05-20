@@ -109,7 +109,15 @@ shenzhen {
     :country => 'China'
     :population => 15_000_000
 }
+# identifiers are used to find information and are reference points
+# identifiers / symbols are more efficient and use less resources, they are faster to compute
+# data information is a string
 
+manila {
+    country: 'Philippines'
+    population: 13_000_000
+}
+# colon : to the right, no need for the rocket symbol =>
 
 
 
