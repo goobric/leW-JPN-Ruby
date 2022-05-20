@@ -17,3 +17,10 @@ market_item_prices = {
 market_item_prices['raman'] = 900
 
 p market_item_prices
+
+# hash.each do |key, value|
+puts "These are the items in our store:"
+
+market_item_prices.each do |item, price|
+    puts "#{item}: $#{price}"
+end
