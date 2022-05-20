@@ -69,6 +69,13 @@ quantity = gets.chomp.to_i  #integar
 # hash_name[key] = value
 cart[item] = quantity
 
+# tell the user their total bill
+# get prices from the hash{} data
+cart.each do |item, quantity|
+    p price = market_items[item]
+    total = price * quantity
+end
+
 
 
 
