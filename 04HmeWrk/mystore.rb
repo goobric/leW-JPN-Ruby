@@ -9,6 +9,7 @@
 
 cart = {}
 
+##1 Welcome to store
 puts "**************************"
 puts "-- Welcome to the Store --"
 puts "**************************"
@@ -31,3 +32,8 @@ store_items = {
     'carrots' => 150,
     'daikon' => 180
 }
+
+##2 Display store items
+store_items.each do |item, price|
+    puts "#{item}: $#{price}"
+end
