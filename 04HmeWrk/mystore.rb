@@ -47,6 +47,20 @@ p user_item
 ##5 Ask user for quantity needed
 puts "How many items would you like?"
 quantity = gets.chomp.to_i  #integar
+p quantity
 
+##6 add item and quantity to cart
 # hash_name[key] = value
 cart[item] = quantity
+
+total = 0  # initialize total variable 
+
+## at checkout sum the items amount
+cart.each do |item, quantity|
+    price = market_items[item]
+    total += price * quantity  # same as total = total + (price * quantity)
+end
+
+##7 display total bill for items
+puts "Bill:"
+puts "$#{total}"
