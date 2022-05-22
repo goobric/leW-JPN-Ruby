@@ -40,5 +40,11 @@ end
 
 ##3 Ask user which item to purchase
 puts "What would you like to buy?"
+##4 store item in a variable
 user_item = gets.chomp
 p user_item
+
+##5 Ask user for quantity needed
+puts "How many items would you like?"
+quantity = gets.chomp.to_i  #integar
+
