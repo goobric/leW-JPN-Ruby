@@ -15,21 +15,21 @@ puts "-- Welcome to the Store --"
 puts "**************************"
 
 store_items = {
-    'burger' => {500, available = 10}
-    'chicken' => {750, available = 11}
-    'sushi' => {1000, available = 12}
-    'oreos' => {250, available = 13}
-    'fries' => {400, available = 14}
-    'noodles' => {800, available = 15}
-    'bubble tea' => {600, available = 16}
-    'raman' => {900, available = 17}
-    'onions' => {150, available = 18}
-    'cabbage' => {150, available = 19}
-    'rice' => {200, available = 20}
+    'burger' => {500, available = 10},
+    'chicken' => {750, available = 11},
+    'sushi' => {1000, available = 12},
+    'oreos' => {250, available = 13},
+    'fries' => {400, available = 14},
+    'noodles' => {800, available = 15},
+    'bubble tea' => {600, available = 16},
+    'raman' => {900, available = 17},
+    'onions' => {150, available = 18},
+    'cabbage' => {150, available = 19},
+    'rice' => {200, available = 20},
     'pork belly' => {500, available = 21}
-    'tuna' => {300, available = 22}
-    'bamboo shoot' => {150, available = 23}
-    'carrots' => {150, available =24}
+    'tuna' => {300, available = 22},
+    'bamboo shoot' => {150, available = 23},
+    'carrots' => {150, available =24},
     'daikon' => {180, available = 25}
 }
 
@@ -63,7 +63,7 @@ end
 
 ##7 display total bill for items
 puts "Bill:"
-puts "$#{total}"
+puts "¥#{total}"
 
 ### ===== EXTENSION =====
 ##8. loop over the 'what would you like to buy' and 'quantity required' questions
