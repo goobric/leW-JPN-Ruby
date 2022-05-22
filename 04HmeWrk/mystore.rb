@@ -35,5 +35,10 @@ store_items = {
 
 ##2 Display store items
 store_items.each do |item, price|
-    puts "#{item}: $#{price}"
+    puts "#{item}: ¥#{price}"
 end
+
+##3 Ask user which item to purchase
+puts "What would you like to buy?"
+user_item = gets.chomp
+p user_item
