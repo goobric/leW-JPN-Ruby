@@ -6,3 +6,10 @@
 ##5 Ask the user for the quantity needed
 ##6 Add the items and quantity in the shopping cart
 ##7 Display the total bill
+
+cart = {}
+
+puts "**************************"
+puts "-- Welcome to the Store --"
+puts "**************************"
+
