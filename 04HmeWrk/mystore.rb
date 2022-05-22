@@ -15,22 +15,22 @@ puts "-- Welcome to the Store --"
 puts "**************************"
 
 store_items = {
-    'burger' => {500, available = 10},
-    'chicken' => {750, available = 11},
-    'sushi' => {1000, available = 12},
-    'oreos' => {250, available = 13},
-    'fries' => {400, available = 14},
-    'noodles' => {800, available = 15},
-    'bubble tea' => {600, available = 16},
-    'raman' => {900, available = 17},
-    'onions' => {150, available = 18},
-    'cabbage' => {150, available = 19},
-    'rice' => {200, available = 20},
-    'pork belly' => {500, available = 21}
-    'tuna' => {300, available = 22},
-    'bamboo shoot' => {150, available = 23},
-    'carrots' => {150, available =24},
-    'daikon' => {180, available = 25}
+    'burger' => {price: 500, available: 10},
+    'chicken' => {price: 750, available: 11},
+    'sushi' => {price: 000, available: 12},
+    'oreos' => {price: 250, available: 13},
+    'fries' => {price: 400, available: 14},
+    'noodles' => {price: 800, available: 15},
+    'bubble tea' => {price: 600, available: 16},
+    'raman' => {price: 900, available: 17},
+    'onions' => {price: 150, available: 18},
+    'cabbage' => {price: 150, available: 19},
+    'rice' => {price: 200, available: 20},
+    'pork belly' => {price: 500, available: 21}
+    'tuna' => {price: 300, available: 22},
+    'bamboo shoot' => {price: 150, available: 23},
+    'carrots' => {price: 150, available: 24},
+    'daikon' => {price:180, available: 25}
 }
 
 ##2 Display store items
