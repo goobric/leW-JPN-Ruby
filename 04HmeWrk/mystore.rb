@@ -13,3 +13,21 @@ puts "**************************"
 puts "-- Welcome to the Store --"
 puts "**************************"
 
+store_items = {
+    'burger' => 500,
+    'chicken' => 750,
+    'sushi' => 1000,
+    'oreos' => 250,
+    'fries' => 400,
+    'noodles' => 800,
+    'bubble tea' => 600,
+    'raman' => 900,
+    'onions' => 150,
+    'cabbage' => 150,
+    'rice' => 200,
+    'pork belly' => 500,
+    'tuna' => 300,
+    'bamboo shoot' => 150,
+    'carrots' => 150,
+    'daikon' => 180
+}
