@@ -29,14 +29,24 @@ p capitalized
     # Concatination
     #first_name + ' ' + last_name
 
+### ** YIELD command **
+# yield calls the block (runs the anonymous method)
+# in this case Yield takes 3 parameters, first_name, last_name, block do...end
+
 ## **** CREATE A METHOD to greet a user with their full_name ***
 def greet_user(first_name, last_name)
-    
     # Interpolation
-    return "#{first_name} #{last_name}"
+    full_name = "Hello #{first_name.capitalize} #{last_name.capitalize}! "
+    yield # yield calls the code in the block do...end
 
 end
 
-puts greet_user('tim', 'chapin')
+greet_user('tim', 'chapin') do
+    puts "Howdy partner!"
+end
+
+greet_user('marlene', 'thisgaard')
+    puts "Hej"
+end
 
 
