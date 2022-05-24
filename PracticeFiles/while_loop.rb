@@ -40,3 +40,22 @@ num_array.each do |x|
   x += 10
   print "#{x}"
 end
+
+odds = [1,3,5,7,9]
+
+# Add your code below!
+odds.each do |y|
+  y *= 2
+  print "#{y}"
+end
+
+# The .times method is like a super compact for loop: it can perform a task on each item in an object a specified number of times.
+
+# For example, if we wanted to print out "Chunky bacon!" ten times, we might type
+
+10.times { print "Chunky bacon!" }
+
+# We don’t know why we would type that, but we could!
+
+
+
