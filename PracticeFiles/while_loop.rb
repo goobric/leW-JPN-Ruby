@@ -23,3 +23,11 @@ end
     # In the above example, we loop through the range of 1 through 5, assigning each number to i in turn.
     # If the remainder of i / 2 is zero, we go to the next iteration of the loop.
     # Then we print the value of i. This line only prints out 1, 3, and 5 because of the previous line.
+
+    j = 20
+    loop do
+      j -= 1
+      next if j % 2 != 0
+      print "#{j}"
+      break if j <= 0
+    end
