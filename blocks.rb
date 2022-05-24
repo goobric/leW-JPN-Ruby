@@ -68,3 +68,25 @@ end
 proc_msg.call
 lamb_msg.call
 
+numbers = (1..12).to_a
+p numbers
+numbers.each do |number|
+    puts number if number.even?
+end
+
+print_if_even = Proc.new do |number|
+    puts number if number.even?
+end
+new_numbers = (10..50).to_a
+
+numbers.each(&print_if_even)
+new_numbers.each(&print_if_even)
+
+## capitalized  the Class name; as using a .method, in this instance the .new method
+# Proc.new
+# String.new
+# Hash.new
+# Array.new
+
+
+
