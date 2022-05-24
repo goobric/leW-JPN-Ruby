@@ -26,3 +26,6 @@ letters.each do |letter|
 end
 
 # The example above just serves as a reminder of using .each on the letters array.
+
+my_array = ['a', 'e', 'i', 'o', 'u']
+
