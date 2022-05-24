@@ -20,3 +20,15 @@ else
 end
   
 puts "Your string is: #{user_input}"
+
+print "Pleathe enter a thtring: " 
+user_word = gets.chomp
+user_word.downcase!
+
+if user_word.include? "s"
+  user_word.gsub!(/s/, "th")
+else
+  puts "There are no 's's in your string."
+end
+
+puts "Your new thtring is #{user_word}."
