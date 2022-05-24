@@ -38,4 +38,12 @@ country = gets.chomp.downcase
 
 if country == 'japan'
     puts "Konnichiwa!"
+elsif country == 'usa'
+    puts "Howdy"
+elsif country == 'denmark'
+    puts "Hej!"
+elsif country == 'mexico'
+    puts "Hola!"
+else
+    puts "hi there!"
 end
