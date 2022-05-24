@@ -25,3 +25,18 @@ end
 p names
 p capitalized
 
+## two ways to combine strings
+    # Concatination
+    #first_name + ' ' + last_name
+
+## **** CREATE A METHOD to greet a user with their full_name ***
+def greet_user(first_name, last_name)
+    
+    # Interpolation
+    return "#{first_name} #{last_name}"
+
+end
+
+puts greet_user('tim', 'chapin')
+
+
