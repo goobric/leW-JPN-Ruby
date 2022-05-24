@@ -22,3 +22,7 @@ end
 
 puts 'She is in the team!' if names.include?('myki') # there is no end for a one-liner.
 puts "She needs to be in the team" unless names.include?('myki')
+
+# ternary operator (2 possible scenarios)
+# condition first, then ? , what happens when truthy : what happens when falsey
+puts names.include?('myki') ? 'She is in the team' : 'She needs to be in the team'
