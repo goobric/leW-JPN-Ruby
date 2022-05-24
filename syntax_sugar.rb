@@ -47,3 +47,28 @@ elsif country == 'mexico'
 else
     puts "hi there!"
 end
+
+## Case Statement
+# is an IF statement but only when we check for Equality (==)
+#case checking_equality_against_input
+case country
+#when what_am_I_comparing
+when 'japan'
+    puts "Konnichiwa"
+when 'denmark'
+    puts "Hej"
+when 'usa'
+    puts "Howdy"
+else
+    puts "hi there"
+end
+
+##refactored to
+case country
+when 'japan' then puts "Konnichiwa"
+when 'usa' then puts "Howdy"
+when 'denmark' then puts "Hej"
+when 'mexico' then puts "Hola"
+else
+    puts "hi there"
+end
