@@ -6,10 +6,19 @@
 
 names = ['doug', 'sasha', 'sylvain', 'aime', 'marlene', 'mika', 'tim', 'raveen', 'nikki', 'olga', 'yukihoshi', 'mai', 'bella', 'tai', 'jane', 'oksana']
 
-if condition
+# if condition
+# elsif another condition
+# else
+# end
 
-elsif another condition
-
+if names.include?('bella')
+    puts "She is in the team!"
 else
-
+    puts "She needs to be in the team"
 end
+
+# condensed way (one line)
+# do something if condition met
+
+puts 'She is in the team!' if names.include?('myki') # there is no end for a one-liner.
+puts "She needs to be in the team" unless names.include?('myki')
