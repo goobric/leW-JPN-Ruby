@@ -51,4 +51,20 @@ greet_user('marlene', 'thisgaard')
     puts "Hej #{full_name}"
 end
 
+## ** THIS IS AN ADVANCED TOPIC!!
+# it's normal to struggle with this but to understand how blocks work
+
+# Proc & Lambda are just ways of storing a block in a variable
+proc_msg = Proc.new do
+    puts "Hello"
+    puts "I'm inside of a proc"
+end
+
+lamb_msg = lambda do
+    puts "Hello"
+    puts "I'm inside of a lambda"
+end
+
+proc_msg.call
+lamb_msg.call
 
