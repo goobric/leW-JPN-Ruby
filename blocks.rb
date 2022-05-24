@@ -34,19 +34,21 @@ p capitalized
 # in this case Yield takes 3 parameters, first_name, last_name, block do...end
 
 ## **** CREATE A METHOD to greet a user with their full_name ***
+# variable 'full_name' ONLY exists within this method, NOT globally.
 def greet_user(first_name, last_name)
     # Interpolation
     full_name = "Hello #{first_name.capitalize} #{last_name.capitalize}! "
-    yield # yield calls the code in the block do...end
-
+    yield(full_name) # yield calls the code in the block do...end
+    # yield was given the argument 'full_name'
 end
 
-greet_user('tim', 'chapin') do
-    puts "Howdy partner!"
+# do...end needs a parameter, a placeholder within pipes ||
+greet_user('tim', 'chapin') do |name_ph|
+    puts "Howdy partner #{full_name}!"
 end
 
 greet_user('marlene', 'thisgaard')
-    puts "Hej"
+    puts "Hej #{full_name}"
 end
 
 
