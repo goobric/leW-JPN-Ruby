@@ -24,10 +24,19 @@ end
     # If the remainder of i / 2 is zero, we go to the next iteration of the loop.
     # Then we print the value of i. This line only prints out 1, 3, and 5 because of the previous line.
 
-    j = 20
-    loop do
-      j -= 1
-      next if j % 2 != 0
-      print "#{j}"
-      break if j <= 0
-    end
+j = 20
+loop do
+    j -= 1
+    next if j % 2 != 0
+    print "#{j}"
+    break if j <= 0
+end
+
+my_array = [1, 2, 3, 4, 5]
+
+num_array = [1,2,3,4,5]
+
+num_array.each do |x|
+  x += 10
+  print "#{x}"
+end
