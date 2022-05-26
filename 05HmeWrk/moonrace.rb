@@ -31,4 +31,13 @@ puts "What's your name?"
 print '> '
 user = gets.chomp + ' 👩‍🚀'
 
+#4 set user and computer position to zero
+user_pos = 0
+comp_pos = 0
+
+#4i set target number to 10
+target_num = 10
+
+
+
 
