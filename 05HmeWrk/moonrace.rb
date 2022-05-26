@@ -26,6 +26,7 @@ puts "you mission, if you choose to accept it; is to race to the moon"
 puts "you will be challenged by the computer"
 
 #2 User name?
+comp = "computer"
 #3 store name in variable 'user'
 puts "What's your name?"
 print '> '
@@ -43,7 +44,17 @@ def roll_dice
     rand(1..6)
 end
 
-until user_pos >= WINNING_NUMBER || comp_pos >= WINNING_NUMBER
+#7 display the random number from dice roll
+def display_dice_roll
+    1.upto(5).each do |num|
+      print '🎲' + '.' * num + "\r"
+      $stdout.flush
+      sleep(0.3)
+    end
+  end
+
+#8 start the loop (above the dice roll) while/until
+until user_pos >= target_num || comp_pos >= target_num
     print `clear`
     puts "#{user} is up..."
     puts "Press 'enter' to roll the dice 🎲"
@@ -67,4 +78,11 @@ until user_pos >= WINNING_NUMBER || comp_pos >= WINNING_NUMBER
     puts "Press 'enter' to continue"
     gets.chomp
     print `clear`
+end
+
+#9 display who won (aka who reached the moon first)
+if user_pos >= comp_pos
+    puts 'You reached the moon first'
+  else
+    puts "#{comp} reached the moon first!"
 end
