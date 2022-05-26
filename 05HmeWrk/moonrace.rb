@@ -38,6 +38,9 @@ comp_pos = 0
 #4i set target number to 10
 target_num = 10
 
-
+#5 set random number for dice
+def roll_dice
+    rand(1..6)
+end
 
 
