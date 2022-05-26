@@ -43,4 +43,28 @@ def roll_dice
     rand(1..6)
 end
 
-
+until user_pos >= WINNING_NUMBER || comp_pos >= WINNING_NUMBER
+    print `clear`
+    puts "#{user} is up..."
+    puts "Press 'enter' to roll the dice 🎲"
+    gets.chomp
+    display_dice_roll
+    number = roll_dice
+    puts "You rolled a #{number} 🎲"
+    user_pos += number
+    display_board('👩‍🚀', user_pos, number)
+    puts ''
+    sleep(1)
+  
+    puts ''
+    puts "#{comp} is up next..."
+    display_dice_roll
+    number = roll_dice
+    puts "#{comp} rolled a #{number} 🎲"
+    comp_pos += number
+    display_board('🤖', comp_pos, number)
+    puts ''
+    puts "Press 'enter' to continue"
+    gets.chomp
+    print `clear`
+end
