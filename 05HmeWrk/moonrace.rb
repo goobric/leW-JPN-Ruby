@@ -25,3 +25,10 @@ puts "Welcome to Space Race"
 puts "you mission, if you choose to accept it; is to race to the moon"
 puts "you will be challenged by the computer"
 
+#2 User name?
+#3 store name in variable 'user'
+puts "What's your name?"
+print '> '
+user = gets.chomp + ' 👩‍🚀'
+
+
