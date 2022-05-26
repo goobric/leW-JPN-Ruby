@@ -19,3 +19,9 @@
 #7 add the random number to the computer's position
 #8 we start the loop (above the dice roll) while/until
 #9 display who won (aka who reached the moon first)
+
+#1 Greet user
+puts "Welcome to Space Race"
+puts "you mission, if you choose to accept it; is to race to the moon"
+puts "you will be challenged by the computer"
+
