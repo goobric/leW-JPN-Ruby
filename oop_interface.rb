@@ -20,6 +20,9 @@ until james.dead? || olga.dead?
     sleep(1)
 end
 
+winner = james.health > olga.health ? james : olga  #ternary operator
+puts "#{winner.name} is the winner!"
+
 # p Warrior.weapons
 # p james
 # p olga
