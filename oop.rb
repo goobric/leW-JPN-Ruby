@@ -78,6 +78,10 @@ class Warrior
         # @health = @health - 20
     end
 
+    def attack(warrior)
+        p warrior
+    end
+    
     # def name # => instance method (by default)
     # Warrior.weapons  # => Class Method
     # class method => def self.method_name
@@ -100,7 +104,9 @@ james = Warrior.new('James', 'Pool Noodle')
 olga = Warrior.new('Olga', 'Sword')
 # added a parameter, therefore this needs to be included in the initialization process above
 
+p Warrior.weapons
 p james
 p olga
 
+olga.attack(james)
 
