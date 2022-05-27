@@ -58,5 +58,6 @@ class Warrior
 
     # instance.health
     def health
+        @health  # show the value inside the instance variable
     end
 end
