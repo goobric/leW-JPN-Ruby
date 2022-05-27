@@ -32,3 +32,13 @@ String # => Class
 # Class -> UpperCamalCase
 # Methods / Variables -> lower_snake_case
 
+## to create an instance:
+# class.new ( use the .dot new)
+
+# defining a Method
+def method_name
+end
+
+# Define a Warrior class
+class Warrior
+end
