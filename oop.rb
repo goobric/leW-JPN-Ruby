@@ -15,3 +15,11 @@
 'james'.length # => behavior
 
 # these Methods classes are defined explicitly.
+
+# There are pre-build Method Classes in Ruby
+# String (.capitalize ...)
+# Array (.length,  .join ...)
+# Hash (.keys ...)
+# Integars (.even? ...)
+
+# Ruby gives the user the power to Create Classes.
