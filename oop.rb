@@ -76,8 +76,21 @@ class Warrior
     def take_damage(hit_points)
         @health -= hit_points if @health >= hit_points
         # @health = @health - 20
+    end
+
+    # def name # => instance method (by default)
+    # Warrior.weapons  # => Class Method
+    # class method => def self.method_name
+    def weapons
+        ['Pool Noodle', 'Chainsaw', 'Sword', 'Spear', 'Axe', 'Bow Arrow']
+    end
 end
 
 james = Warrior.new('James', 'Pool Noodle')
 olga = Warrior.new('Olga', 'Sword')
 # added a parameter, therefore this needs to be included in the initialization process above
+
+p james
+p olga
+
+
