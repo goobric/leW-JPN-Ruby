@@ -40,5 +40,14 @@ def method_name
 end
 
 # Define a Warrior class
+# what data (attributes) do we want to store about a Warrior?
+# Warrior.new => creates an Instance of a Warrior
+# .new triggers the .initialize method
+# inside of our initialize method, data can be stored here
+
 class Warrior
+    # gets called with .new
+    def initialize
+        puts 'Hello from the initialize method'
+    end
 end
