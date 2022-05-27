@@ -70,7 +70,7 @@ class Warrior
     end
     # compare health for being dead, use a boolean with ?
     def dead?
-        @health == 0
+        @health <= 0
     end
     # taking damage is related to health for a warrior, define take_damage variable
     def take_damage(hit_points)
@@ -80,6 +80,7 @@ class Warrior
 
     def attack(warrior)
         hit_points = Warrior.weapons[@weapon]
+        warrior.take_damage(hit_points)
     end
     # get the hit_points for the weapon
     # remove the hit_points from the apponent
@@ -111,4 +112,6 @@ p james
 p olga
 
 olga.attack(james)
+puts james.health
+puts james.dead? # <= 0 is the dead value
 
