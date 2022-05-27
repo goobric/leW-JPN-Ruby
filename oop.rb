@@ -79,9 +79,11 @@ class Warrior
     end
 
     def attack(warrior)
-        p warrior
+        hit_points = Warrior.weapons[@weapon]
     end
-    
+    # get the hit_points for the weapon
+    # remove the hit_points from the apponent
+
     # def name # => instance method (by default)
     # Warrior.weapons  # => Class Method
     # class method => def self.method_name
