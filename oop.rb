@@ -53,7 +53,7 @@ end
 class Warrior
     # gets called with .new
     # this class only gets run at the beginning
-    def initialize(name)
+    def initialize(name, weapon)
         @name = name
         @health = 100   # default value of 100 for all warriors
         puts 'Hello from the initialize method'
@@ -72,4 +72,12 @@ class Warrior
     def dead?
         @health == 0
     end
+    # taking damage is related to health for a warrior, define take_damage variable
+    def take_damage(hit_points)
+        @health -= hit_points if @health >= hit_points
+        # @health = @health - 20
 end
+
+james = Warrior.new('James', 'Pool Noodle')
+olga = Warrior.new('Olga', 'Sword')
+# added a parameter, therefore this needs to be included in the initialization process above
