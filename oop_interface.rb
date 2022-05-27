@@ -5,9 +5,12 @@ require_relative 'oop'
 james = Warrior.new('James', Warrior.weapons.keys.sample)
 olga = Warrior.new('Olga', Warrior.weapons.keys.sample)
 
-p Warrior.weapons
-p james
-p olga
+puts "#{james.name} pulled out a #{james.weapon}!"
+puts "#{olga.name} pulled out a #{jolga.weapon}!"
+
+# p Warrior.weapons
+# p james
+# p olga
 
 olga.attack(james)
 puts james.health

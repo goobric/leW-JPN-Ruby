@@ -68,6 +68,11 @@ class Warrior
     def name
         @name
     end
+
+    # instance.weapon
+    def weapon
+        @weapon
+    end
     # compare health for being dead, use a boolean with ?
     def dead?
         @health <= 0
