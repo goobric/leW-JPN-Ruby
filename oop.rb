@@ -81,8 +81,18 @@ class Warrior
     # def name # => instance method (by default)
     # Warrior.weapons  # => Class Method
     # class method => def self.method_name
-    def weapons
-        ['Pool Noodle', 'Chainsaw', 'Sword', 'Spear', 'Axe', 'Bow Arrow']
+    ## def weapons
+        ## ['Pool Noodle', 'Chainsaw', 'Sword', 'Spear', 'Axe', 'Bow Arrow']
+    ## end
+    def self.weapons
+        {
+            'Pool Noodle' => 5,
+            'Chainsaw' => 30,
+            'Sword' => 25,
+            'Spear' => 20,
+            'Axe' => 15,
+            'Bow Arrow' => 25
+        }
     end
 end
 
