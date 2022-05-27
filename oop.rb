@@ -22,4 +22,13 @@
 # Hash (.keys ...)
 # Integars (.even? ...)
 
-# Ruby gives the user the power to Create Classes.
+## Ruby gives the user the power to Create Classes.
+
+## Class vs Instance
+'james' # => Instance
+String # => Class
+
+### Naming Convention in Ruby
+# Class -> UpperCamalCase
+# Methods / Variables -> lower_snake_case
+
