@@ -25,11 +25,11 @@
 ## Ruby gives the user the power to Create Classes.
 
 ## Class vs Instance
-'james' # => Instance
-String # => Class
+'james' # => Instance  (ex: a cake)
+String # => Class       (ex: the mould used to make the cake)
 
 ### Naming Convention in Ruby
-# Class -> UpperCamalCase
+# Class -> UpperCamalCase  (PascalCase)
 # Methods / Variables -> lower_snake_case
 
 ## to create an instance:
