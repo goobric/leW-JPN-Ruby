@@ -55,4 +55,8 @@ class Warrior
         @health = 100   # default value of 100 for all warriors
         puts 'Hello from the initialize method'
     end
+
+    # instance.health
+    def health
+    end
 end
