@@ -15,8 +15,9 @@ until james.dead? || olga.dead?
     puts "#{olga.name} attacks #{james.name}!"
     olga.attack(james)
 
-    
-    
+    puts "#{james.health}'s health: #{james.health}"
+    puts "#{olga.health}'s health: #{olga.health}"
+    sleep(1)
 end
 
 # p Warrior.weapons
