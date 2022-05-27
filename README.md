@@ -8,6 +8,8 @@ This is a 5 week basic introduction to Ruby Programming from the Le Wagon team i
 
 ### Classes
 
+220526 - OOP Object Orientated Programming
+
 220524 - make a Turn-Based dice game
 
 220524 - Blocks Procs Lambda
