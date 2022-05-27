@@ -108,6 +108,9 @@ james = Warrior.new('James', 'Pool Noodle')
 olga = Warrior.new('Olga', 'Sword')
 # added a parameter, therefore this needs to be included in the initialization process above
 
+james = Warrior.new('James', Warrior.weapons.keys.sample)
+olga = Warrior.new('Olga', Warrior.weapons.keys.sample)
+
 p Warrior.weapons
 p james
 p olga
