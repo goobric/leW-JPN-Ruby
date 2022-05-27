@@ -76,6 +76,7 @@ class Warrior
     def take_damage(hit_points)
         @health -= hit_points if @health >= hit_points
         # @health = @health - 20
+        @health = 0 if @health.negative?
     end
 
     def attack(warrior)
