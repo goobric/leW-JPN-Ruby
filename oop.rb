@@ -47,9 +47,12 @@ end
 
 # instance is like a box that holds all the data
 # an @instance variable holds data to reuse later, it must have the AT @ symbol infront of it
+# instance_methods -> run behavior of the instance.
+# inside the instance_method, access to ALL of the instance variables are available.
 
 class Warrior
     # gets called with .new
+    # this class only gets run at the beginning
     def initialize(name)
         @name = name
         @health = 100   # default value of 100 for all warriors
@@ -59,5 +62,9 @@ class Warrior
     # instance.health
     def health
         @health  # show the value inside the instance variable
+    end
+    # instance.name
+    def name
+        @name
     end
 end
