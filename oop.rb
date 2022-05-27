@@ -14,7 +14,7 @@
 'james'.downcase # => behavior
 'james'.length # => behavior
 
-# these Methods classes are defined explicitly.
+# these .dot Methods classes are defined explicitly.
 
 # There are pre-build Method Classes in Ruby
 # String (.capitalize ...)
