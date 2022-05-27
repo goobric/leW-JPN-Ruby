@@ -59,12 +59,17 @@ class Warrior
         puts 'Hello from the initialize method'
     end
 
-    # instance.health
+    # instance.health (attribute readers)
+    # method name is reading the instance variable of the same name.
     def health
         @health  # show the value inside the instance variable
     end
     # instance.name
     def name
         @name
+    end
+    # compare health for being dead, use a boolean with ?
+    def dead?
+        @health == 0
     end
 end
