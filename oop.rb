@@ -45,9 +45,12 @@ end
 # .new triggers the .initialize method
 # inside of our initialize method, data can be stored here
 
+# instance is like a box that holds all the data
+# an Instance variable holds data to reuse later
 class Warrior
     # gets called with .new
-    def initialize
+    def initialize(name)
+        name = name
         puts 'Hello from the initialize method'
     end
 end
