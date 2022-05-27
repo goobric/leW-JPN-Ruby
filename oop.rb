@@ -47,10 +47,12 @@ end
 
 # instance is like a box that holds all the data
 # an @instance variable holds data to reuse later, it must have the AT @ symbol infront of it
+
 class Warrior
     # gets called with .new
     def initialize(name)
-        name = name
+        @name = name
+        @health = 100   # default value of 100 for all warriors
         puts 'Hello from the initialize method'
     end
 end
