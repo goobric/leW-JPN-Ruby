@@ -46,7 +46,7 @@ end
 # inside of our initialize method, data can be stored here
 
 # instance is like a box that holds all the data
-# an Instance variable holds data to reuse later
+# an @instance variable holds data to reuse later, it must have the AT @ symbol infront of it
 class Warrior
     # gets called with .new
     def initialize(name)
